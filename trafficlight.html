@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traffic Simulation</title>
+  <style>
+    /* CSS styles for the road */
+    .road {
+      width: 1000px;
+      height: 50px;
+      background-color: #999;
+      position: relative;
+    }
+
+    /* CSS styles for the cars */
+    .car {
+      width: 20px;
+      height: 10px;
+      position: absolute;
+      top: 20px;
+    }
+
+    /* CSS styles for the traffic light */
+    .traffic-light {
+      width: 20px;
+      height: 60px;
+      background-color: #000;
+      position: absolute;
+      top: -10px;
+      left: 400px;
+    }
+
+    .light {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      position: absolute;
+      top: 5px;
+      left: 5px;
+    }
+
+    .red { background-color: #f00; }
+    .yellow { background-color: #ff0; }
+    .green { background-color: #0f0; }
+
+    /* CSS styles for the countdown timer */
+    .countdown {
+      position: absolute;
+      top: 70px;
+      left: 400px;
+      font-size: 16px;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="road">
+    <div class="traffic-light">
+      <div class="light red"></div>
+    </div>
+    <div id="cars-container"></div>
+    <div class="countdown" id="countdown"></div>
+  </div>
+
+  <script>
+    // Define constants
+    const ROAD_LENGTH = 1000; // Length of the road
+    const NUM_CARS = 10; // Number of cars on the road
+    const MAX_SPEED = 5; // Maximum speed a car can travel
+    const MIN_CAR_DISTANCE = 10; // Minimum distance between two cars
+    const BRAKE_DISTANCE = 20; // Distance at which cars start to decelerate
+    const TRAFFIC_LIGHT_DISTANCE = 400; // Distance of traffic light from the start of the road
+    const GREEN_LIGHT_DURATION = 30; // Duration of green light in seconds
+    const RED_LIGHT_DURATION = 20; // Duration of red light in seconds
+    const YELLOW_LIGHT_DURATION = 10; // Duration of yellow light in seconds
+
+    // Define car class
+    class Car {
+      constructor(speed, position, color) {
+        this.speed = speed;
+        this.position = position;
+        this.color = color;
+      }
+
+      accelerate() {
+        this.speed = Math.min(this.speed + 1, MAX_SPEED);
+      }
+
+      decelerate() {
+        this.speed = Math.max(this.speed - 1, 0);
+      }
+
+      move() {
+        this.position += this.speed;
+      }
+
+      render() {
+        let carElement = document.createElement('div');
+        carElement.className = 'car';
+        carElement.style.left = this.position + 'px';
+        carElement.style.backgroundColor = this.color; // Set color
+        document.getElementById('cars-container').appendChild(carElement);
+      }
+    }
+
+    // Define traffic light class...
+    class TrafficLight {
+      constructor() {
+        this.state = 'red'; // Initial state of the traffic light
+        this.timestamp = 0; // Timestamp to track the duration of each state
+        this.element = document.querySelector('.traffic-light .light');
+      }
+
+      changeState() {
+        switch (this.state) {
+          case 'red':
+            this.state = 'green';
+            this.timestamp = GREEN_LIGHT_DURATION;
+            this.element.className = 'light green';
+            break;
+          case 'green':
+            this.state = 'yellow';
+            this.timestamp = YELLOW_LIGHT_DURATION;
+            this.element.className = 'light yellow';
+            break;
+          case 'yellow':
+            this.state = 'red';
+            this.timestamp = RED_LIGHT_DURATION;
+            this.element.className = 'light red';
+            break;
+        }
+      }
+    }
+
+    // Simulate traffic...
+    function simulateTraffic() {
+      for (let i = 0; i < cars.length; i++) {
+        let car = cars[i];
+        // Check for traffic lights
+        if (car.position >= TRAFFIC_LIGHT_DISTANCE && car.position <= TRAFFIC_LIGHT_DISTANCE + trafficLight.timestamp * MAX_SPEED) {
+          if (trafficLight.state === 'red') {
+            car.decelerate();
+          }
+        } else {
+          // Check for other cars
+          for (let j = i + 1; j < cars.length; j++) {
+            let distance = cars[j].position - car.position;
+            if (distance < MIN_CAR_DISTANCE) {
+              car.decelerate();
+              break;
+            }
+          }
+          // Check for brake distance
+          if (car.speed > 0 && car.position + BRAKE_DISTANCE >= cars[i + 1]?.position) {
+            car.decelerate();
+          } else {
+            car.accelerate();
+          }
+        }
+        car.move();
+        car.render();
+      }
+
+      // Update traffic light state and timestamp
+      if (trafficLight.timestamp > 0) {
+        trafficLight.timestamp--;
+      } else {
+        trafficLight.changeState();
+      }
+    }
+
+    // Function to update countdown timer...
+    function updateCountdown() {
+      let countdownElement = document.getElementById('countdown');
+      countdownElement.innerText = `Time left: ${trafficLight.timestamp} seconds`;
+    }
+
+    // Initialize cars on the road with random colors
+    let cars = [];
+    for (let i = 0; i < NUM_CARS; i++) {
+      let randomColor = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
+      cars.push(new Car(Math.floor(Math.random() * MAX_SPEED) + 1, i * (ROAD_LENGTH / NUM_CARS), randomColor));
+    }
+
+    // Initialize traffic light...
+    let trafficLight = new TrafficLight();
+
+    // Run simulation...
+    function runSimulation() {
+      setInterval(() => {
+        simulateTraffic();
+        updateCountdown(); // Update countdown timer
+      }, 1000);
+    }
+
+    runSimulation();
+  </script>
+</body>
+</html>

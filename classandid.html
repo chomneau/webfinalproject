@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .myClass{
+            background-color: blue;
+        }
+        #myID{
+            background-color: aqua;
+        }
+        .font{
+            font-size: 50px;
+        }
+        #yourID{
+            color: blue;
+            font-size: 30px;
+        }
+
+        .button{
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            width: 200px;
+            height: 60px;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        /* .textID{
+            background-color: brown;
+        } */
+    </style>
+</head>
+<body>
+
+    <p class="myClass font"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur neque sapiente ad ea fugiat odio exercitationem voluptatibus modi? Officia optio delectus debitis quaerat nostrum ab. Doloremque hic cumque nihil explicabo.</p>
+    <p id="yourID">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corporis a mollitia facilis illum vel, adipisci ipsum totam porro recusandae.</p>
+    <h3 class="myClass">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nam sequi totam et porro autem, iste expedita eum. Impedit non ab libero, nesciunt esse cupiditate magni dolor blanditiis fugit quis dolorum expedita alias dolore voluptatibus exercitationem quas! Praesentium vel rerum asperiores facilis reiciendis culpa totam odio, deserunt et natus magnam!</h3>
+
+    <p id="textID">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel alias minima nobis consectetur repudiandae dolorum in necessitatibus id dignissimos. Nisi alias hic ad sunt distinctio exercitationem repudiandae beatae architecto, nihil, placeat reprehenderit culpa dignissimos cum id nostrum explicabo harum? Modi sed odio fugit natus accusamus accusantium, quisquam harum velit iure!</p>
+    <button class="button" onclick="clickMe();">Click Me</button>
+    <script>
+        function clickMe() {
+            document.getElementById('textID').style.fontFamily = "Lucida Sans";
+            
+        }
+
+    </script>
+</body>
+</html>

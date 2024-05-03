@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function calculateAverage(grades) {
+        let sum = 0;
+        for (let grade of grades) {
+            sum += grade;
+        }
+        return sum / grades.length;
+    }
+
+    function getLetterGrade(grade) {
+        if (grade >= 90) {
+            return 'A';
+        } else if (grade >= 80) {
+            return 'B';
+        } else if (grade >= 70) {
+            return 'C';
+        } else if (grade >= 60) {
+            return 'D';
+        } else {
+            return 'F';
+        }
+    }  
+  
+    let studentName = prompt("Enter student's name:");
+    let grades = [];
+    for (let i = 0; i < 5; i++) {
+        let subjectGrade = parseFloat(prompt("Enter grade for subject " + (i + 1) + ":"));
+        grades.push(subjectGrade);
+    }
+
+    let averageGrade = calculateAverage(grades);
+    let letterGrade = getLetterGrade(averageGrade);
+
+    console.log("Student Name: " + studentName);
+    console.log("Average Grade: " + averageGrade.toFixed(2) + " (" + letterGrade + ")");
+</script>
+</html>

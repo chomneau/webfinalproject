@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function checkDivi(num) {
+    if (num % 3 === 0 && num % 5 === 0) {
+        console.log("The number you entered can divided by 3 and 5.");
+    } 
+    else {
+        console.log("The number you enter can't divided by 3 and 5.");
+    }
+}  
+
+function Pich() {
+    let userInput = prompt("Please Enter a number");
+    let userNumber = parseInt(userInput);
+
+    if (!isNaN(userNumber)) {
+        checkDivi(userNumber);
+    } 
+} 
+Pich();    
+</script>   
+</html>

@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+.navbar-brand:hover{
+    background-color: rgb(21, 21, 194);
+    transition: all ease 1s;
+    border-radius: 5px;
+}
+
+.nav-link:hover{
+    background-color: rgb(21, 21, 194);
+    transition: all ease 1s;
+    border-radius: 5px;
+}
+
+#dropdown-menu-map{
+    background-color: rgb(5, 5, 88);
+    width: 100%;
+    height: auto;
+    margin-top: -1px;
+    border-radius: 0;
+}
+
+#map{
+    margin: 25px;
+    padding: 25px;
+}
+
+.dropdown-menu img:hover{
+    background-color: cornflowerblue;
+    transition: all ease 0.7s;
+}
+
+.logo img{
+    max-width: 90px;
+    height: auto;
+}
+
+.mega-menu ul{
+    padding: 0;
+    border-radius: 0;
+}
+
+.mega-menu{
+    display: flex;
+}
+
+.alphabet{
+    background-color: lightblue;
+}
+
+.big-thumnail > img{
+    width: fit-content;
+    margin-bottom: 60px;
+}
+
+.word-thumnail{
+    top: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.word-thumnail h2{
+    background-color: rgb(5, 5, 88);
+    color: #f3f3f3;
+    padding: 8px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.button-info a{
+    background-color: rgb(5, 5, 88);
+    color: #f3f3f3;
+    padding: 4px 8px 4px 8px;
+    border-radius: 3px;
+}
+
+.button-info a:hover{
+    background-color: rgb(21, 21, 194);
+    transition: all ease 0.5s;
+}
+
+.Health{
+    width: 100%;
+    background-color: rgb(32, 32, 124);
+}
+
+
+.info-footer div a:hover{
+    background-color: rgb(21, 21, 194);
+    transition: all ease;
+    padding: 3px;
+}
+
+.info-footer ul li a{
+    color: white;
+}
+
+.info-footer ul li a:hover{
+    background-color: rgb(21, 21, 194);
+    transition: all ease ;
+}
+
+.contact{
+    background-color: darkblue;
+    padding: 14px;
+    border: 1px solid black;
+}
+
+.contact:hover{
+    border: 3px solid lightblue;
+    transition: all ease 0.5s;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo > a > img{
+    width: 180px;
+    height: auto;
+}
+
+.social-contact{
+    background-color: rgb(32, 32, 124);
+}
+
+.icon-contact a{
+    color: #f3f3f3;
+}
+
+.social-contact a:hover{
+    background-color: rgb(21, 21, 194);
+    transition: all ease 0.5s;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.home-new a:hover{
+    background-color: rgb(221, 221, 221);
+    transition: all ease;
+}

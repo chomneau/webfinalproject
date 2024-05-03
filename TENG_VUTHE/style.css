@@ -1,0 +1,1168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div1{
+    min-width: 1220px;
+}
+/* header .navbar .left {
+    width: 184px;
+    background: #DB1A21;
+    line-height: 40px;
+    height: 40px;
+    float: left;
+} */
+
+header .navbar .right {
+    float: right;
+}
+
+header {
+    background: #E1E1E1;
+}
+
+
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+} */
+
+
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body, select, input, textarea {
+    color: #333;
+}
+
+body {
+    font: 14px canarolight;
+}
+
+
+
+
+
+
+header .navbar .right .search-icon {
+    float: right;
+    margin-left: 10px;
+    padding-top: 8px;
+    margin-top: 2px;
+}
+
+header .navbar .right .lang {
+    float: right;
+}
+
+header .navbar .right .lang ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+
+header .navbar .right .lang ul li {
+    float: left;
+    margin-right: 30px;
+    line-height: 40px;
+}
+
+header .navbar .right .lang ul li a, header .navbar .right .lang ul li a:link, header .navbar .right .lang ul li a:visited {
+    color: #999;
+}
+
+a, a:link, a:visited {
+    color: #DB1A21;
+    text-decoration: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+
+
+/* a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+} */
+
+header .navbar .right .lang ul li {
+    float: left;
+    margin-right: 30px;
+    line-height: 40px;
+}
+
+header .navbar .right .lang ul li.split {
+    padding-top: 8px;
+}
+
+header .navbar .right .lang ul li {
+    float: left;
+    margin-right: 30px;
+    line-height: 40px;
+}
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* *, *:before, *:after {
+    box-sizing: inherit;
+} */
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+header .navbar .right .lang ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+header .navbar .right .lang ul li.split span {
+    display: block;
+    background: #999;
+    width: 1px;
+    height: 26px;
+}
+
+header .navbar .right .lang ul li {
+    float: left;
+    margin-right: 30px;
+    line-height: 40px;
+}
+header .nav nav ul li a, header .nav nav ul li a:link, header .nav nav ul li a:visited {
+    display: block;
+    line-height: 80px;
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+header .nav nav ul li a span {
+    font-family: canarolight;
+    font-weight: bold;
+    display: block;
+    border-bottom: 3px solid #DB1A21;
+    line-height: 71px;
+    padding-top: 5px;
+}
+header .nav nav ul li.hover a span{
+    border-bottom: 4px solid #E6E7E8;
+    background: #E6E7E8;
+}
+header .nav nav .txt {
+    position: absolute;
+    z-index: 10;
+    width: 1200px;
+    left: 0;
+    background: #DB1A21;
+    line-height: 1;
+    display: none;
+}
+header .nav nav .txt-1 ul li {
+    width: 225px;
+}
+header .nav nav .txt ul {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    padding: 30px 0 15px 0;
+    background: #E6E7E8;
+}
+
+header .div div .txt {
+    position: absolute;
+    z-index: 10;
+    width: 1200px;
+    left: 0;
+    background: #DB1A21;
+    line-height: 1;
+    display: none;
+}
+
+/*drop down*/
+
+header .nav nav ul li {
+    float: left;
+    margin-right: 1px;
+}
+style {
+    display: none;
+    
+}
+header .nav nav ul li a, header .nav nav ul li a:link, header .nav nav ul li a:visited {
+    display: block;
+    line-height: 80px;
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+header .nav nav ul li a span {
+    font-family: canarolight;
+    font-weight: bold;
+    display: block;
+    border-bottom: 3px solid #DB1A21;
+    line-height: 71px;
+    padding-top: 5px;
+}
+header .nav nav ul li.hover a span {
+    border-bottom: #E6E7E8;
+    background: #E6E7E8;
+}
+
+header .nav nav .sub {
+    position: absolute;
+    z-index: 10;
+    width: 1200px;
+    left: 0;
+    background: #DB1A21;
+    line-height: 1;
+    display: none;
+}
+header .nav nav .sub ul {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    padding: 30px 0 15px 0;
+    background: #E6E7E8;
+}
+header .nav nav .sub-5 ul li {
+    width: 225px;
+}
+header .nav nav  .sub ul li ul a:hover{
+    color: #DB1A21;
+}
+header .nav nav .sub ul li h3 {
+    line-height: 1;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+header .nav nav .sub ul li ul li {
+    width: 100%;
+    float: none;
+    padding: 6px 5px 6px 30px;
+    background: url(https://metfone.com.kh/Content/css/../img/menu-bullet.png) no-repeat 15px 8px;
+}
+header .nav nav .sub ul li ul li a, header .nav nav .sub ul li ul li a:link, header .nav nav .sub ul li ul li a:visited {
+    line-height: 1;
+    font-size: 14px;
+    color: #666;
+    text-transform: none;
+    display: inline-block;
+    padding: 0px;
+    line-height: 1.2;
+}
+header .nav nav .sub ul li h3 a:hover{
+    color: #DB1A21;
+}
+header .nav nav .sub ul li h3 a {
+    text-transform: none;
+    line-height: 1;
+    font-size: 18px;
+    padding: 0px;
+    color: #0D8085;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+header .navbar .right .lang ul li.split {
+    padding-top: 8px;
+}
+
+header .navbar .right .lang ul li {
+    float: left;
+    margin-right: 30px;
+    line-height: 40px;
+}
+
+header .navbar .right .lang ul li.split span {
+    display: block;
+    background: #999;
+    width: 1px;
+    height: 26px;
+}
+header .navbar .right .lang ul li {
+    float: left;
+    margin-right: 30px;
+    line-height: 40px;
+}
+header .navbar .right .lang ul li.split {
+    padding-top: 8px;
+}
+
+header .navbar .right .lang ul li {
+    float: left;
+    margin-right: 30px;
+    line-height: 40px;
+}
+header .navbar .right .lang ul li.img {
+    line-height: 24px;
+    padding-top: 8px;
+}
+
+header .navbar .right .lang ul li {
+    float: left;
+    margin-right: 30px;
+    line-height: 40px;
+}
+header .navbar .right .lang ul li a, header .navbar .right .lang ul li a:link, header .navbar .right .lang ul li a:visited {
+    color: #999;
+}
+header .nav {
+    background: #DB1A21;
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+}
+header .navbar .right .lang ul li {
+    float: left;
+    margin-right: 30px;
+    line-height: 40px;
+}
+header .nav nav ul li a, header .nav nav ul li a:link, header .nav nav ul li a:visited {
+    display: block;
+    line-height: 80px;
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+header .nav nav ul li a span {
+    font-family: canarolight;
+    font-weight: bold;
+    display: block;
+    border-bottom: 3px solid #DB1A21;
+    line-height: 71px;
+    padding-top: 5px;
+}
+header .nav nav .txt {
+    position: absolute;
+    z-index: 10;
+    width: 1200px;
+    left: 0;
+    background: #DB1A21;
+    line-height: 1;
+    display: none;
+}
+header .nav nav .txt-1 ul li {
+    width: 225px;
+}
+header .nav nav .txt ul {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    padding: 30px 0 15px 0;
+    background: #E6E7E8;
+}
+
+header .div div .txt {
+    position: absolute;
+    z-index: 10;
+    width: 1200px;
+    left: 0;
+    background: #DB1A21;
+    line-height: 1;
+    display: none;
+}
+header .nav nav .txt ul li h3 {
+    line-height: 1;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+header .nav nav .txt ul li h3 a {
+    text-transform: none;
+    line-height: 1;
+    font-size: 18px;
+    padding: 0px;
+    color: #0D8085;
+}
+
+a, a:link, a:visited {
+    color: #DB1A21;
+    text-decoration: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo {
+    width: 200px;
+    float: left;
+    padding-top: 15px;
+    margin-right: 20px;
+    line-height: 1;
+}
+
+img, object, embed {
+    max-width: 100%;
+}
+
+article, aside, figure, footer, header, nav, section, details, summary {
+    display: block;
+}
+header .nav nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+header .nav nav .sub {
+    position: absolute;
+    z-index: 10;
+    width: 1200px;
+    left: 0;
+    background: #DB1A21;
+    line-height: 1;
+    display: none;
+}
+
+header .nav nav ul li {
+    float: left;
+    margin-right: 1px;
+}
+
+header .nav nav ul li a, header .nav nav ul li a:link, header .nav nav ul li a:visited {
+    display: block;
+    line-height: 80px;
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+a, a:link, a:visited {
+    color: #DB1A21;
+    text-decoration: none;
+}
+header .nav nav .sub ul  {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    padding: 30px 0 15px 0;
+    background: #E6E7E8;
+}
+header .nav nav ul li .hover a {
+
+    background: #E6E7E8;
+    color: #DB1A21;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+header .nav nav .sub {
+    position: absolute;
+    z-index: 10;
+    width: 1200px;
+    left: 0;
+    background: #DB1A21;
+    line-height: 1;
+    display: none;
+}
+
+header .nav nav ul li {
+    float: left;
+    margin-right: 1px;
+}
+
+header .nav nav ul li a, header .nav nav ul li a:link, header .nav nav ul li a:visited {
+    display: block;
+    line-height: 80px;
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+header .nav nav .sub {
+    position: absolute;
+    z-index: 10;
+    width: 1200px;
+    left: 0;
+    background: #DB1A21;
+    line-height: 1;
+    display: none;
+}
+
+header .nav nav .sub ul {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    padding: 30px 0 15px 0;
+    background: #E6E7E8;
+}
+
+header .nav nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+header .nav nav .sub-5 ul li {
+    width: 225px;
+}
+
+header .nav nav .sub ul li {
+    float: left;
+    width: 275px;
+    padding-left: 15px;
+}
+
+header .nav nav ul li {
+    float: left;
+    margin-right: 1px;
+}
+header .nav nav .sub ul li h3 {
+    line-height: 1;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+header .nav nav .sub ul li h3 a {
+    text-transform: none;
+    line-height: 1;
+    font-size: 18px;
+    padding: 0px;
+    color: #0D8085;
+}
+
+header .nav nav .sub ul li ul {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    padding: 10px 0px 0px;
+}
+header .nav nav .sub ul li ul li {
+    width: 100%;
+    float: none;
+    padding: 6px 5px 6px 30px;
+    background: url(https://metfone.com.kh/Content/css/../img/menu-bullet.png) no-repeat 15px 8px;
+}
+.nav nav .sub ul li ul li a:link, header .nav nav .sub ul li ul li a:visited {
+    line-height: 1;
+    font-size: 14px;
+    color: #666;
+    text-transform: none;
+    display: inline-block;
+    padding: 0px;
+    line-height: 1.2;
+}
+header .nav nav .sub ul li ul li {
+    width: 100%;
+    float: none;
+    padding: 6px 5px 6px 30px;
+    background: url(https://metfone.com.kh/Content/css/../img/menu-bullet.png) no-repeat 15px 8px;
+}
+header .nav nav .sub ul li ul li a, header .nav nav .sub ul li ul li a:link, header .nav nav .sub ul li ul li a:visited {
+    line-height: 1;
+    font-size: 14px;
+    color: #666;
+    text-transform: none;
+    display: inline-block;
+    padding: 0px;
+    line-height: 1.2;
+}
+
+header .nav nav ul li a, header .nav nav ul li a:link, header .nav nav ul li a:visited {
+    display: block;
+    line-height: 80px;
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+header .nav nav .sub ul li ul li {
+    width: 100%;
+    float: none;
+    padding: 6px 5px 6px 30px;
+    background: url(https://metfone.com.kh/Content/css/../img/menu-bullet.png) no-repeat 15px 8px;
+}
+
+header .nav nav .sub-5 ul li {
+    width: 225px;
+}
+
+header .nav nav .sub ul li {
+    float: left;
+    width: 275px;
+    padding-left: 15px;
+}
+
+header .nav nav ul li {
+    float: left;
+    margin-right: 1px;
+}
+header .nav nav .sub-5 ul li {
+    width: 225px;
+}
+header .nav nav .sub ul li h3 {
+    line-height: 1;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+header .nav nav .sub ul li h3 a {
+    text-transform: none;
+    line-height: 1;
+    font-size: 18px;
+    padding: 0px;
+    color: #0D8085;
+}
+
+header .nav nav ul li {
+    float: left;
+    margin-right: 1px;
+}
+
+header .nav nav ul li a, header .nav nav ul li a:link, header .nav nav ul li a:visited {
+    display: block;
+    line-height: 80px;
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+element.style {
+    display: none;
+}
+
+header .nav nav .sub {
+    position: absolute;
+    z-index: 10;
+    width: 1200px;
+    left: 0;
+    background: #DB1A21;
+    line-height: 1;
+    display: none;
+}
+header .nav nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+}
+.topSliders {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+article, aside, figure, footer, header, nav, section, details, summary {
+    display: block;
+}
+
+element.style {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 700px;
+    transform-origin: 0px 0px;
+    transform: scale(0.657813);
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+element.style {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 700px;
+    display: none;
+}
+
+lement.style {
+    cursor: default;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 700px;
+    overflow: hidden;
+    z-index: 0;
+}
+.style {
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+    transform: translate3d(-1920px, 0px, 0px);
+}
+.style {
+    cursor: default;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 700px;
+    overflow: hidden;
+    z-index: 0;
+}
+.style {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 700px;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    display: none;
+}
+.style {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 700px;
+    position: absolute;
+    overflow: hidden;
+    perspective: 112.5px;
+    transform: translate3d(-1920px, 0px, 0px);
+}
+.style {
+    display: block;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 700px;
+    position: relative;
+}
+.style {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 700px;
+    position: absolute;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.style {
+    display: none;
+}
+img, object, embed {
+    max-width: 100%;
+}
+
+element.style {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 700px;
+    position: absolute;
+    overflow: hidden;
+    perspective: 112.5px;
+    transform: translate3d(-1920px, 0px, 0px);
+}
+element.style {
+    bottom: 26px;
+    right: 22px;
+    width: 206px;
+    height: 26px;
+    left: 857px;
+}
+
+element.style {
+    display: none;
+}
+
+
+.jssorb05 {
+    position: absolute;
+}
+
+.jssora11l {
+    background-position: -11px -41px;
+}
+element.style {
+    top: 321px;
+    right: 12px;
+    width: 40px;
+    height: 58px;
+}
+
+.jssora11r {
+    background-position: -71px -41px;
+}
+.jssora11l, .jssora11r {
+    display: block;
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+    background: url(https://metfone.com.kh/Content/css/../img/a11.png) no-repeat;
+    overflow: hidden;
+}
+
+
+.intro {
+    background: #EBEDF1;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    font-family: canaromedium;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.intro .border {
+    background: #E16E74;
+    padding-bottom: 2px;
+    line-height: 1;
+}
+.intro .border ul {
+    background: #EBEDF1;
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    line-height: 95px;
+    height: 95px;
+}
+
+ul {
+    list-style: none;
+}
+.intro .border {
+    background: #E16E74;
+    padding-bottom: 2px;
+    line-height: 1;
+}
+.intro .border ul li a .text {
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.intro .border ul li a .text {
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.intro .border ul li {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+.intro .border ul li {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+.fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+.intro .border ul li a .text {
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.fa-2x {
+    font-size: 2em;
+}
+.intro .border ul li {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+.intro .border ul li a:hover, .intro .border ul li a.actived {
+    color: #EF3C68;
+    background: url(https://metfone.com.kh/Content/css/../img/intro-bg-hover.png) no-repeat bottom center;
+}
+
+.intro .border ul li a, .intro .border ul li a:link, .intro .border ul li a:visited {
+    display: block;
+    line-height: 92px;
+}
+.intro .border ul li a:hover, .intro .border ul li a.actived {
+    color: #EF3C68;
+    
+}
+
+.intro .border ul li a, .intro .border ul li a:link, .intro .border ul li a:visited {
+    display: block;
+    line-height: 92px;
+}
+.fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.intro .border ul li a, .intro .border ul li a:link, .intro .border ul li a:visited {
+    display: block;
+    line-height: 92px;
+}
+.packages {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    padding: 40px 0 35px 0px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.why-choose {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+}
+.why-choose .bg {
+    background: #EBEDF1;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.why-choose h3 {
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0px;
+    text-transform: uppercase;
+    font-family: canaro;
+    font-weight: bold;
+    color: #DB1A21;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.why-choose ul li {
+    float: left;
+    width: 350px;
+    text-align: center;
+    padding: 20px 0px;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+/*body*/
+body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+}
+.topSliders {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+element.style {
+    position: relative;
+    margin: 0px auto;
+    top: 0px;
+    left: 0px;
+    width: 1263px;
+    height: 460.469px;
+    overflow: hidden;
+    visibility: visible;
+}
+.intro {
+    background: #EBEDF1;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    font-family: canaromedium;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.intro .border {
+    background: #E16E74;
+    padding-bottom: 2px;
+    line-height: 1;
+}
+.intro .border ul {
+    background: #EBEDF1;
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    line-height: 95px;
+    height: 95px;
+}
+
+ul {
+    list-style: none;
+}
+.intro .border ul li {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+.intro .border ul li a:visited {
+    display: block;
+    line-height: 92px;
+}
+.fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.fa-2x {
+    font-size: 2em;
+}
+.fa-stack-2x {
+    font-size: 2em;
+}
+
+.fa-stack-1x, .fa-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-stack-1x {
+    line-height: inherit;
+}
+.fa-stack-1x, .fa-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.intro .border ul li a.text {
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.intro .border ul li a:hover, .intro .border ul li a.actived {
+    color: #EF3C68;
+    background: url(https://metfone.com.kh/Content/css/../img/intro-bg-hover.png) no-repeat bottom center;
+}

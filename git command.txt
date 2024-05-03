@@ -17,3 +17,6 @@ git push -u origin main
 
 git push --all 
 mean push all branch to remote server
+
+git restore .
+restore all the committed files back

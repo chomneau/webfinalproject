@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body >
+    <!-- <div class="header"> -->
+      <div class="container-fluid​​​">
+      <div class="row">
+        <div class="col-lg-12 ">
+        <div class="header justify-content-center">
+           <!-- droDown  -->
+           <div class="dropdown">
+            <p class="dropbtn" id="hc">MyAUPP <i class="bi bi-chevron-down"></i></p>
+            <div class="dropdown-content" id="hc">
+              <a href="https://login.microsoftonline.com/c2b953e6-a8bc-4a8e-bfce-48ebc0752731/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=6AF50159D02A83FFFFC4F044CBDCDB89EAD1C698473897CA%2D1856A366A30689BC61BCCBFC372FB738ABC2CFF1D685D7A3EEF1C89DB312E974&redirect%5Furi=https%3A%2F%2Faupp%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=a49926a1%2D00d3%2D3000%2D3574%2D92bcc5f95ea0&sso_reload=true">Student Portal</a>
+              <a href="https://login.microsoftonline.com/c2b953e6-a8bc-4a8e-bfce-48ebc0752731/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=6AF50159D02A83FFFFC4F044CBDCDB89EAD1C698473897CA%2D1856A366A30689BC61BCCBFC372FB738ABC2CFF1D685D7A3EEF1C89DB312E974&redirect%5Furi=https%3A%2F%2Faupp%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=a49926a1%2D00d3%2D3000%2D3574%2D92bcc5f95ea0&sso_reload=true">Staff/Faculty Portal</a>
+              <a href="https://login.microsoftonline.com/c2b953e6-a8bc-4a8e-bfce-48ebc0752731/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=6AF50159D02A83FFFFC4F044CBDCDB89EAD1C698473897CA%2D1856A366A30689BC61BCCBFC372FB738ABC2CFF1D685D7A3EEF1C89DB312E974&redirect%5Furi=https%3A%2F%2Faupp%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=a49926a1%2D00d3%2D3000%2D3574%2D92bcc5f95ea0&sso_reload=true">SIS</a>
+              <a href="https://login.microsoftonline.com/c2b953e6-a8bc-4a8e-bfce-48ebc0752731/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=6AF50159D02A83FFFFC4F044CBDCDB89EAD1C698473897CA%2D1856A366A30689BC61BCCBFC372FB738ABC2CFF1D685D7A3EEF1C89DB312E974&redirect%5Furi=https%3A%2F%2Faupp%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=a49926a1%2D00d3%2D3000%2D3574%2D92bcc5f95ea0&sso_reload=true">Canvas</a>
+              <a href="https://login.microsoftonline.com/c2b953e6-a8bc-4a8e-bfce-48ebc0752731/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=6AF50159D02A83FFFFC4F044CBDCDB89EAD1C698473897CA%2D1856A366A30689BC61BCCBFC372FB738ABC2CFF1D685D7A3EEF1C89DB312E974&redirect%5Furi=https%3A%2F%2Faupp%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=a49926a1%2D00d3%2D3000%2D3574%2D92bcc5f95ea0&sso_reload=true">Emial</a>
+            </div>
+          </div>
+          <p class="dropbtn" style="margin-left: 0.5rem;">|</p>
+          <p class="dropbtn" style="margin-left: 0.5rem;" ><a href="../AuppLogo/auppLogo.html" id="hc">AUPP Logos<span class="octicon octicon-logo-gist"></span></a></p>
+          <p class="dropbtn" style="margin-left: 0.5rem;">|</p>
+          <div class="dropdown">
+            <p class="dropbtn" id="hc">Future Students <i class="bi bi-chevron-down"></i></p>
+            <div class="dropdown-contentF" id="hc">
+              <a href="../FutureStudentBechel/auppLogo.html">Future Students (Bachelor's)</a>
+              <a href="../FutureStudentMaster/auppLogo.html">Future Students (Master's)</a>
+            </div>
+          </div>
+          <p class="dropbtn" style="margin-left: 0.5rem;">|</p>
+          <p class="dropbtn" style="margin-left: 0.5rem;"><a href="../alumni/auppLogo.html" id="hc">Alumni</a></p>
+          <p class="dropbtn" style="margin-left: 0.5rem;">|</p>
+          <p class="dropbtn" style="margin-left: 0.5rem;"><a href="../StudentLife/auppLogo.html" id="hc">Student Life</a></p>
+          <p class="dropbtn" style="margin-left: 0.5rem;">|</p>
+   <!-- droDown  -->
+   <div class="dropdown">
+    <p class="dropbtn" id="hc">Center <i class="bi bi-chevron-down"></i></p>
+    <div class="dropdown-contentC" id="hc">
+      <a href="#">AUPP HS/Foxcroft Academy</a>
+      <a href="#">AUPP Technology Center</a>
+      <a href="#">The Learning Center</a>
+      <a href="#">Center for Southeast Asian Studies</a>
+    </div>
+  </div>
+  <p class="dropbtnC"><i class="bi bi-search"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 m-sm-auto">
+      <div id="navbar" class="">
+        <div class="auppLogo">
+          <a href="../Home/nav.html"><img src="https://www.aupp.edu.kh/wp-content/uploads/AUPP-Main-Logo-2048x512.png" alt=""></a>
+        </div>
+        <div class="rignav">
+          
+  <div class="dropdownCC" id="dcc">
+    <p class="dropbtnCCabout ">About Us <i class="bi bi-chevron-down"></i></p>
+    <div class="dropdown-contentCCabout" id="RigN">
+          <a class="dropdown-item " href="../History/auppLogo.html">History</a>
+          <a class="dropdown-item" href="../Licence/auppLogo.html">License and Accreditation</a>
+          <a class="dropdown-item " href="../Vision/auppLogo.html">Vision,Mission, and Value</a>
+          <a class="dropdown-item" href="../Board/auppLogo.html">Who's Who a AUPP</a></li>
+          <a class="dropdown-item " href="../Career Op/auppLogo.html">Carreer Opportunities</a>          <a class="dropdown-item" href="#">FAQs</a></li>
+    </div></div>
+    <div class="dropdownCC" id="dcc">
+    <p class="dropbtnCCaca">Academies <i class="bi bi-chevron-down"></i></p>
+    <div class="dropdown-contentCCaca" id="RigN">
+      <a href="../School program/auppLogo.html">School,Program,and Center.</a>
+      <a href="#">AUPP Technology Center</a>
+      <a href="#">The Learning Center</a>
+      <a href="#">Center for Southeast Asian Studies</a>
+    </div>
+  </div>
+  <div class="dropdownCC" id="dcc">
+    <p class="dropbtnCCadm">Admissions <i class="bi bi-chevron-down"></i></p>
+    <div class="dropdown-contentCCadm" id="RigN">
+      <a  href="../Bachelor Admission/auppLogo.html">Bachelor's Admission</a>
+      <a  href="#">Master's Admission</a>
+      <a  href="#">Transfer to AUPP</a>
+     <a  href="#">INternational Students</a>
+    </div>
+  </div>
+  <div class="dropdownCC" id="dcc">
+    <p class="dropbtnCCtui">Tuition <i class="bi bi-chevron-down"></i></p>
+    <div class="dropdown-contentCCtui" id="RigN">
+       <a  href="../Tuition Fee/auppLogo.html">Tuition Fees</a>
+       <a  href="#">Other Fees</a>
+       <a  href="#">How to Make a Payment</a>
+    </div>
+  </div>
+  <div class="dropdownCC" id="dcc">
+    <p class="dropbtnCCsch">Scholarships <i class="bi bi-chevron-down"></i></p>
+    <div class="dropdown-contentCCsch" id="RigN">
+      <a  href="../Scholarship/auppLogo.html">Scholarships</a>
+      <a  href="#">Finacial Aid(DSDP)</a>
+      <a  href="#">Student Loans AUPP</a>
+    </div>
+  </div>
+  <div class="dropdownCC" id="bcc">
+    <a href="../BookinTour/nav.html"><button class="dropbtnCC btn btn-danger rounded-0 mt-3" style="font-size: 14px;width: 7rem;">Book a Tour</button></a>
+  </div>
+  <div class="dropdownCC" id="bcc">
+    <button class="dropbtnCCc btn btn-danger rounded-0 mt-3" style="font-size: 14px;">Apply <i class="bi bi-chevron-down" ></i></button>
+    <div class="dropdown-contentCCc" id="ac">
+          <a  href="../Bachelor/nav.html">Bachelor's Admission Application</a>
+          <a  href="../Master/nav.html">Masterr's Admission Application</a>
+    </div>
+   </div>
+  </div>
+ </div>
+
+ 
+ <div class="camTour">
+  <img src="image/Board.png" alt="">
+</div>
+<div class="ALogoMain">
+<div class="brandInfo">
+<h6 class="text-center"><strong>AUPP is governed by</strong> a Board of Trustees. The Board meets on a regular schedule and is responsible for appointing and evaluating the University President, approving policies of the institution, receiving financial statements of the University, approving the budget, and receiving reports of institutional effectiveness, receiving and acting on the Annual Report and the audited financial statements.</h6>
+</div>
+</div>
+
+<h4 class="text-center">Member of the Board of Trustees</h4>
+<div class="Member">
+
+  <div class="membe">
+    <div class="Pic">
+      <div class="boxP"><img src="image/1.jpg" alt=""></div>
+      <div class="boxP"><img src="image/2.jpg" alt=""></div>
+      <div class="boxP"><img src="image/3.jpg" alt=""></div>
+      <div class="boxP"><img src="image/4.jpg" alt=""></div>
+      <div class="boxP"><img src="image/5.jpg" alt=""></div>
+      <div class="boxP"><img src="image/6.jpg" alt=""></div>
+      <div class="boxP"><img src="image/7.jpg" alt=""></div>
+      <div class="boxP"><img src="image/8.jpg" alt=""></div>
+      <div class="boxP"><img src="image/9.jpg" alt=""></div>
+      <div class="boxP"><img src="image/10.jpg" alt=""></div>
+      <div class="boxP"><img src="image/11.jpg" alt=""></div>
+      <div class="boxP"><img src="image/12.jpg" alt=""></div>
+    </div>
+    <div class="Des">
+      <div class="boxD">
+        <h4>Dr. Jacquelyn Armitage, Trustee Emerita</h4>
+        <h6>Former President, Hesser College</h6>
+        <h6>EdD, University of Massachusetts at Amherst</h6>
+        <h6>MS, Boston University</h6>
+        <h6>BS, University of Massachusetts at Amherst</h6>
+      </div>
+      <div class="boxD">
+        <h4>Dr. Richard Gustafson, Chair</h4>
+        <h6>President Emeritus, Southern New Hampshire University</h6>
+        <h6>Chancellor Emeritus, Community College System of New Hampshire</h6>
+        <h6>Ph.D., University of Connecticut</h6>
+        <h6>M.Ed. and B.A , Boston University</h6>
+        <h6>M.Ed., Notre Dame College</h6>
+      </div>
+      <div class="boxD">
+        <h4>
+          Dr. Guido Gianasso</h4>
+          <h6>Professor of Leadership at HEC Paris and Honorary Consul of Romania in Geneva </h6>
+            <h6>LLM, University of Torino</h6>
+            <h6>DES and PhD, University of Geneva</h6>
+          <h6>Advanced Management Program, Harvard Business School</h6>
+      </div>
+      <div class="boxD">
+        <h4>Jean-Pierre Pedrazzini</h4>
+        <h6>CEO, Mistral Sports Group in Munich</h6>
+        <h6>MBA, IMD in Lausanne</h6>
+        <h6>BS, University of Southern California</h6>
+      </div>
+      <div class="boxD">
+        <h4>Rami Sharaf</h4>
+        <h6>CEO, WorldBridge Group</h6>
+        <h6>Founder and Chairman, Cambodia Automotive Industry Federation (CAIF)</h6>
+      </div>
+      <div class="boxD">
+        <h4>Sok Ly</h4>
+        <h6>Managing Director, Angela Real Estate Co., Ltd</h6>
+        <h6>MBA, State Academy of Management, Moscow</h6>
+        <h6>B.S., LiaoNing University</h6>
+      </div>
+      <div class="boxD">
+        <h4>Paul Marca</h4>
+        <h6>Principal, Parallax Global Advisors, LLC</h6>
+        <h6>Former Associate Vice Provost, Stanford University (Retired)</h6>
+      </div>
+      <div class="boxD">
+        <h4>Puy Kea</h4>
+        <h6>Correspondent of Kyodo News</h6>
+        <h6>M.A., Political Science, University of Cambodia</h6>
+        <h6>B.E., Royal University of Phnom Penh</h6>
+      </div>
+      <div class="boxD">
+        <h4>Dr. Lucille H. Sansing</h4>
+        <h6>Former Positions include: Interim Provost, Westminster College; Interim Chief Academic Officer and President/CEO, Trident University International; President, Argosy University, San Francisco Bay Area</h6>
+        <h6>Ph.D., George Washington University</h6>
+        <h6>M.A., University of Virginia</h6>
+      </div>
+      <div class="boxD">
+        <h4>Kenneth Dunn</h4>
+        <h6>Former President of AUPP</h6>
+        <h6>New England Law-Boston; B.A., Boston University</h6>
+      </div>
+      <div class="boxD">
+        <h4>
+          Dr. Donald N. Rallis</h4>
+          <h6>Professor, American University of Phnom Penh</h6>
+          <h6>PhD Pennsylvania State University, Geography</h6>
+          <h6>M.A University of Miami</h6>
+          <h6>B.Sc. and B.A. University of the Witwatersrand, Johannesburg</h6>
+      </div>
+      <div class="boxD">
+        <h4>Brent White</h4>
+        <h6>Chief Global Officer, University of Hawai’i at Mānoa</h6>
+        <h6>New York University School of Law</h6>
+        <h6>New York, NY, J.D., May 1998</h6>
+        <h6>Duke University, Durham, NC</h6>
+        <h6>Public Policy, May 1993</h6>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="footer">
+  <div class="row">
+        <div class="col-3">
+            <h3>Quick Links</h3>
+            <a href="#"><p>History</p></a>
+           <a href="#"><p>Vision-Mission-Value</p></a> 
+            <a href="#"><p>Career Opportunities</p></a>
+            <a href="#"><p>Current Weather at AUPP</p></a>
+        </div>
+        <div class="col-3">
+            <h3>Explore</h3>
+           <a href="#"> <p>Students Life</p></a>
+           <a href="#"><p>News & Event</p></a> 
+           <a href="#"> <p>Tuition Fee</p></a>
+            <a href="#"><p>Scholaships</p></a>
+            <a href="#"><p>Contact Us</p></a>
+        </div>
+        <div class="col-3">
+            <h3>Schools</h3>
+            <a href="#"><p>School of Liberal Arts and Sciences</p></a>
+            <a href="#"><p>School of Business </p></a>
+            <a href="#"><p>School of Digital Technologies</p></a>
+            <a href="#"><p>School of Las</p></a>
+            <a href="#"><p>School of Graduate Studies</p></a>
+        </div>
+        <div class="col-3">
+            <h3>Contact Us</h3>
+            <a href="#"><p> Address: #278H, Street 201R, Kroalkor Village, Sangkat Kilometer 6, Khan Russey Keo, Phnom Penh, Cambodia</p></a>
+            <a href="#"><p>Phone: (+855) 23 990 023</p></a>
+            <a href="#"><p>Email: info@aupp.edu.kh</p></a>
+            <a href="#"><p>Best buy for buessines</p></a>
+            <a href="#"><i id="i1" class="bi bi-facebook"></i><i class="bi bi-telegram"></i><i class="bi bi-instagram"></i></a>
+        </div>
+    </div> 
+</div>
+<div class="copiR">
+  <h6>© Copyright 2023 American University of Phnom Penh, All Rights Reserved.</h6>
+</div>
+
+      
+
+
+
+
+<script src="script copy.js"></script>
+      <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+
+        
+        </script>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="nav.js"></script>
+</body>
+</html>

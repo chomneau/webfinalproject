@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  </head>
+<body >
+    <!-- <div class="header"> -->
+      <div class="container-fluid​​​">
+      <div class="row">
+        <div class="col-lg-12 ">
+        <div class="header justify-content-center">
+           <!-- droDown  -->
+           <div class="dropdown">
+            <p class="dropbtn" id="hc">MyAUPP <i class="bi bi-chevron-down"></i></p>
+            <div class="dropdown-content" id="hc">
+              <a href="https://login.microsoftonline.com/c2b953e6-a8bc-4a8e-bfce-48ebc0752731/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=6AF50159D02A83FFFFC4F044CBDCDB89EAD1C698473897CA%2D1856A366A30689BC61BCCBFC372FB738ABC2CFF1D685D7A3EEF1C89DB312E974&redirect%5Furi=https%3A%2F%2Faupp%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=a49926a1%2D00d3%2D3000%2D3574%2D92bcc5f95ea0&sso_reload=true">Student Portal</a>
+              <a href="https://login.microsoftonline.com/c2b953e6-a8bc-4a8e-bfce-48ebc0752731/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=6AF50159D02A83FFFFC4F044CBDCDB89EAD1C698473897CA%2D1856A366A30689BC61BCCBFC372FB738ABC2CFF1D685D7A3EEF1C89DB312E974&redirect%5Furi=https%3A%2F%2Faupp%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=a49926a1%2D00d3%2D3000%2D3574%2D92bcc5f95ea0&sso_reload=true">Staff/Faculty Portal</a>
+              <a href="https://login.microsoftonline.com/c2b953e6-a8bc-4a8e-bfce-48ebc0752731/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=6AF50159D02A83FFFFC4F044CBDCDB89EAD1C698473897CA%2D1856A366A30689BC61BCCBFC372FB738ABC2CFF1D685D7A3EEF1C89DB312E974&redirect%5Furi=https%3A%2F%2Faupp%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=a49926a1%2D00d3%2D3000%2D3574%2D92bcc5f95ea0&sso_reload=true">SIS</a>
+              <a href="https://login.microsoftonline.com/c2b953e6-a8bc-4a8e-bfce-48ebc0752731/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=6AF50159D02A83FFFFC4F044CBDCDB89EAD1C698473897CA%2D1856A366A30689BC61BCCBFC372FB738ABC2CFF1D685D7A3EEF1C89DB312E974&redirect%5Furi=https%3A%2F%2Faupp%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=a49926a1%2D00d3%2D3000%2D3574%2D92bcc5f95ea0&sso_reload=true">Canvas</a>
+              <a href="https://login.microsoftonline.com/c2b953e6-a8bc-4a8e-bfce-48ebc0752731/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=6AF50159D02A83FFFFC4F044CBDCDB89EAD1C698473897CA%2D1856A366A30689BC61BCCBFC372FB738ABC2CFF1D685D7A3EEF1C89DB312E974&redirect%5Furi=https%3A%2F%2Faupp%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=a49926a1%2D00d3%2D3000%2D3574%2D92bcc5f95ea0&sso_reload=true">Emial</a>
+            </div>
+          </div>
+          <p class="dropbtn" style="margin-left: 0.5rem;">|</p>
+          <p class="dropbtn" style="margin-left: 0.5rem;" ><a href="../AuppLogo/auppLogo.html" id="hc">AUPP Logos<span class="octicon octicon-logo-gist"></span></a></p>
+          <p class="dropbtn" style="margin-left: 0.5rem;">|</p>
+          <div class="dropdown">
+            <p class="dropbtn" id="hc">Future Students <i class="bi bi-chevron-down"></i></p>
+            <div class="dropdown-contentF" id="hc">
+              <a href="../FutureStudentBechel/auppLogo.html">Future Students (Bachelor's)</a>
+              <a href="../FutureStudentMaster/auppLogo.html">Future Students (Master's)</a>
+            </div>
+          </div>
+          <p class="dropbtn" style="margin-left: 0.5rem;">|</p>
+          <p class="dropbtn" style="margin-left: 0.5rem;"><a href="../alumni/auppLogo.html" id="hc">Alumni</a></p>
+          <p class="dropbtn" style="margin-left: 0.5rem;">|</p>
+          <p class="dropbtn" style="margin-left: 0.5rem;"><a href="../StudentLife/auppLogo.html" id="hc">Student Life</a></p>
+          <p class="dropbtn" style="margin-left: 0.5rem;">|</p>
+   <!-- droDown  -->
+   <div class="dropdown">
+    <p class="dropbtn" id="hc">Center <i class="bi bi-chevron-down"></i></p>
+    <div class="dropdown-contentC" id="hc">
+      <a href="https://www.aupphs-fa.edu.kh/">AUPP HS/Foxcroft Academy</a>
+      <a href="#">AUPP Technology Center</a>
+      <a href="#">The Learning Center</a>
+      <a href="#">Center for Southeast Asian Studies</a>
+    </div>
+  </div>
+  <p class="dropbtnC"><i class="bi bi-search"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 m-sm-auto">
+      <div id="navbar" class="">
+        <div class="auppLogo">
+          <a href="../Home/nav.html"><img src="https://www.aupp.edu.kh/wp-content/uploads/AUPP-Main-Logo-2048x512.png" alt=""></a>
+        </div>
+        <div class="rignav">
+          
+  <div class="dropdownCC" id="dcc">
+    <p class="dropbtnCCabout ">About Us <i class="bi bi-chevron-down"></i></p>
+    <div class="dropdown-contentCCabout" id="RigN">
+          <a class="dropdown-item " href="../History/auppLogo.html">History</a>
+          <a class="dropdown-item" href="../Licence/auppLogo.html">License and Accreditation</a>
+          <a class="dropdown-item " href="../Vision/auppLogo.html">Vision,Mission, and Value</a>
+          <a class="dropdown-item" href="../Board/auppLogo.html">Who's Who a AUPP</a></li>
+          <a class="dropdown-item " href="../Career Op/auppLogo.html">Carreer Opportunities</a>          <a class="dropdown-item" href="#">FAQs</a></li>
+    </div></div>
+    <div class="dropdownCC" id="dcc">
+    <p class="dropbtnCCaca">Academies <i class="bi bi-chevron-down"></i></p>
+    <div class="dropdown-contentCCaca" id="RigN">
+      <a href="../School program/auppLogo.html">School,Program,and Center</a>
+      <a href="#">AUPP Technology Center</a>
+      <a href="#">The Learning Center</a>
+      <a href="#">Center for Southeast Asian Studies</a>
+    </div>
+  </div>
+  <div class="dropdownCC" id="dcc">
+    <p class="dropbtnCCadm">Admissions <i class="bi bi-chevron-down"></i></p>
+    <div class="dropdown-contentCCadm" id="RigN">
+      <a  href="../Bachelor Admission/auppLogo.html">Bachelor's Admission</a>
+      <a  href="#">Master's Admission</a>
+      <a  href="#">Transfer to AUPP</a>
+     <a  href="#">INternational Students</a>
+    </div>
+  </div>
+  <div class="dropdownCC" id="dcc">
+    <p class="dropbtnCCtui">Tuition <i class="bi bi-chevron-down"></i></p>
+    <div class="dropdown-contentCCtui" id="RigN">
+       <a  href="../Tuition Fee/auppLogo.html">Tuition Fees</a>
+       <a  href="#">Other Fees</a>
+       <a  href="#">How to Make a Payment</a>
+    </div>
+  </div>
+  <div class="dropdownCC" id="dcc">
+    <p class="dropbtnCCsch">Scholarships <i class="bi bi-chevron-down"></i></p>
+    <div class="dropdown-contentCCsch" id="RigN">
+      <a  href="../Scholarship/auppLogo.html">Scholarships</a>
+      <a  href="#">Finacial Aid(DSDP)</a>
+      <a  href="#">Student Loans AUPP</a>
+    </div>
+  </div>
+  <div class="dropdownCC" id="bcc">
+    <a href="../BookinTour/nav.html"><button class="dropbtnCC btn btn-danger rounded-0 mt-3" style="font-size: 14px;">Book a Tour</button></a>
+  </div>
+  <div class="dropdownCC" id="bcc">
+    <button class="dropbtnCCc btn btn-danger rounded-0 mt-3" style="font-size: 14px;">Apply <i class="bi bi-chevron-down" ></i></button>
+    <div class="dropdown-contentCCc" id="ac">
+          <a  href="../Bachelor/nav.html">Bachelor's Admission Application</a>
+          <a  href="../Master/nav.html">Masterr's Admission Application</a>
+    </div>
+   </div>
+  </div>
+ </div>
+
+ <div class="camTour">
+  <img width="100%" src="image/alumni.png" alt="">
+</div>
+
+
+
+  <div class="custom-slider">
+    <div class="custom-box"><img src="https://www.aupp.edu.kh/wp-content/uploads/Alumnus-Lyhuy.jpg" alt=""></div>
+    <div class="custom-box"><img src="https://www.aupp.edu.kh/wp-content/uploads/TAING-Bunhong.jpg" alt=""></div>
+    <div class="custom-box"><img src="https://www.aupp.edu.kh/wp-content/uploads/Meet-Rithiya-Serey.jpg" alt=""></div>
+    <div class="custom-box"><img src="https://www.aupp.edu.kh/wp-content/uploads/Len-Sievlan.jpg" alt=""></div>
+    <div class="custom-box"><img src="https://www.aupp.edu.kh/wp-content/uploads/Historic-First-Virtual-Graduation.jpg" alt=""></div>
+    <div class="custom-box"><img src="https://www.aupp.edu.kh/wp-content/uploads/AUPP-IT-Graduates-from-Cambodia-Work-in-Europe.jpg" alt=""></div>
+    <div class="custom-box"><img src="https://www.aupp.edu.kh/wp-content/uploads/AUPP-Students-Depart-for-Graduation-in-the-United-States.jpg" alt=""></div>
+  </div>
+
+
+  <div class="acd">
+  <div class="accordion" id="accordionExample" >
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <i class="bi bi-plus-circle-fill"></i> <strong>Classes</strong>
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <ul>
+            <li>Class of 2017</li>
+            <li>Class of 2018</li>
+            <li>Class of 2019</li>
+            <li>Class of 2020</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item mt-2">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <i class="bi bi-plus-circle-fill"></i><strong>  AUPP Alumni Community</strong>
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h5> We hope to create a foundation that fosters a sense of community and connection among all alumni through implementation of following goals:</h3>
+          <h5  style="padding-left: 1.5rem;">1. Support your professional development by offering career-related resources.</h5>
+          <h5 style="padding-left: 1.5rem;">2. Organize social events that bring together alumni from different backgrounds and interests</h5>
+          <h5 style="padding-left: 1.5rem;">3. Provide educational opportunities for through lectures, seminars, or other types of programming.</h5>
+          <h5 style="padding-left: 1.5rem;">4. Create a platform for alumni to share their stories and experiences with each other and with current students who can learn from their insights and perspectives.</h5>
+          <h5>Get involed today!</h5>
+          <h5><strong>Contact Information:</strong></h5>
+          <ul>
+            <li>Ms. Phyna Noun (Career and Allumni Relations Coordinator)</li>
+            <li>Email: <span style="text-decoration: underline; color: rgb(96, 96, 193);">p.noun@aupp.kh</span></li>
+            <li>Phone Number: (+855) 96 260 0209</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+
+<div class="footer">
+  <div class="row">
+        <div class="col-3">
+            <h3>Quick Links</h3>
+            <a href="../History/auppLogo.html"><p>History</p></a>
+           <a href="../Vision/auppLogo.html"><p>Vision-Mission-Value</p></a> 
+            <a href="../Career Op/auppLogo.html"><p>Career Opportunities</p></a>
+            <a href="#"><p>Current Weather at AUPP</p></a>
+        </div>
+        <div class="col-3">
+            <h3>Explore</h3>
+           <a href="#"> <p>Students Life</p></a>
+           <a href="#"><p>News & Event</p></a> 
+           <a href="#"> <p>Tuition Fee</p></a>
+            <a href="#"><p>Scholaships</p></a>
+            <a href="#"><p>Contact Us</p></a>
+        </div>
+        <div class="col-3">
+            <h3>Schools</h3>
+            <a href="#"><p>School of Liberal Arts and Sciences</p></a>
+            <a href="#"><p>School of Business </p></a>
+            <a href="#"><p>School of Digital Technologies</p></a>
+            <a href="#"><p>School of Las</p></a>
+            <a href="#"><p>School of Graduate Studies</p></a>
+        </div>
+        <div class="col-3">
+            <h3>Contact Us</h3>
+            <a href="#"><p> Address: #278H, Street 201R, Kroalkor Village, Sangkat Kilometer 6, Khan Russey Keo, Phnom Penh, Cambodia</p></a>
+            <a href="#"><p>Phone: (+855) 23 990 023</p></a>
+            <a href="#"><p>Email: info@aupp.edu.kh</p></a>
+            <a href="#"><p>Best buy for buessines</p></a>
+            <a href="#"><i id="i1" class="bi bi-facebook"></i><i class="bi bi-telegram"></i><i class="bi bi-instagram"></i></a>
+        </div>
+    </div> 
+</div>
+<div class="copiR">
+  <h6>© Copyright 2023 American University of Phnom Penh, All Rights Reserved.</h6>
+</div>
+
+      
+
+
+
+
+<script src="script copy.js"></script>
+      <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+
+        
+        </script>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="nav.js"></script>
+</body>
+</html>
